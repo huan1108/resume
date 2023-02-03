@@ -22,12 +22,13 @@ body:target {
 /* 头像 */
 .header {
 	margin: 0 auto;
-	margin-bottom: 50px;
 }
 
 .bg {
 	display: flex;
 	flex-direction: column;
+    float: left;
+   
 }
 
 .bg_1 {
@@ -37,11 +38,14 @@ body:target {
 
 .ba {
 	/* background: yellow; */
-	text-align: center;
+	text-align: left;
+    float: left;
+    margin-right: 15px;
 }
 
 .ba img {
 	width: 237px;
+    border-radius: 5px;
 }
 
 .wu {
@@ -253,8 +257,6 @@ ul li {
 .block {
 	/* float: left; */
 	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .justify-content-center {
