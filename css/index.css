@@ -825,6 +825,7 @@ body:target {
 .di {
     background: #256292;
     background: linear-gradient(to left, #A9F3A0 0%, #51D3D9 100%);
+    margin-top: 20px;
 }
 
 .dibu {
@@ -855,6 +856,11 @@ html {
     padding-bottom: 30px;
     font-size: 16px;
     border-bottom: 1px #7c747485 dotted;
+}
+
+.project-case:last-of-type {
+    border-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .project-case p {
